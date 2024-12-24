@@ -1,0 +1,113 @@
+﻿@page "/heroes"
+@rendermode InteractiveServer
+
+<PageTitle>Heroes</PageTitle>
+
+<h1>Heroes</h1>
+
+<div class="dota-container">
+    <main class="dota-main">
+        <h2>Heroes</h2>
+        <h3>All Heroes</h3>
+        <div class="dota-trends-section">
+            <h2 class="dota-section-title">Trending Heroes</h2>
+            <div class="dota-trends-wrapper">
+                <!-- Winner Card -->
+                <div class="dota-trend-card">
+                    <div class="dota-card-header">
+                        <h3 class="dota-card-title">
+                            Biggest Winner
+                            <i class="dota-trend-icon dota-winner">↑</i>
+                        </h3>
+                    </div>
+                    <div class="dota-card-content">
+                        <div class="dota-content-wrapper">
+                            <div class="dota-hero-info">
+                                <span class="dota-hero-name">@* {{ summary!.biggest_winner.name }} *@</span>
+                                <div class="dota-trend-value-wrapper">
+                                    <span class="dota-trend-value dota-winner">
+                                        @* +{{ summary!.biggest_winner.win_rate_change.toFixed(2) }}% *@
+                                    </span>
+                                    <span class="dota-text-secondary">Win Rate Change</span>
+                                </div>
+                            </div>
+
+                            <div class="dota-stats-grid">
+                                <div class="dota-stat-item">
+                                    <p class="dota-stat-label">Current Win Rate</p>
+                                    <p class="dota-stat-value">
+                                        @* {{ summary!.biggest_winner.current_win_rate.toFixed(2) }}% *@
+                                    </p>
+                                </div>
+                                <div class="dota-stat-item">
+                                    <p class="dota-stat-label">Pick Rate</p>
+                                    <p class="dota-stat-value">
+                                        @* {{ summary!.biggest_winner.current_pick_rate.toFixed(2) }}% *@
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Loser Card -->
+                <div class="dota-trend-card">
+                    <div class="dota-card-header">
+                        <h3 class="dota-card-title">
+                            Biggest Loser
+                            <i class="dota-trend-icon dota-loser">↓</i>
+                        </h3>
+                    </div>
+                    <div class="dota-card-content">
+                        <div class="dota-content-wrapper">
+                            <div class="dota-hero-info">
+                                <span class="dota-hero-name">@* {{ summary!.biggest_loser.name }} *@</span>
+                                <div class="dota-trend-value-wrapper">
+                                    <span class="dota-trend-value dota-loser">
+                                        @* {{ summary!.biggest_loser.win_rate_change.toFixed(2) }}% *@
+                                    </span>
+                                    <span class="dota-text-secondary">Win Rate Change</span>
+                                </div>
+                            </div>
+
+                            <div class="dota-stats-grid">
+                                <div class="dota-stat-item">
+                                    <p class="dota-stat-label">Current Win Rate</p>
+                                    <p class="dota-stat-value">
+                                        @* {{ summary!.biggest_loser.current_win_rate.toFixed(2) }}% *@
+                                    </p>
+                                </div>
+                                <div class="dota-stat-item">
+                                    <p class="dota-stat-label">Pick Rate</p>
+                                    <p class="dota-stat-value">
+                                        @* {{ summary!.biggest_loser.current_pick_rate.toFixed(2) }}% *@
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="dota-more-link" href="trends">MORE</a>
+            <div class="dota-hero-list">
+                <div class="dota-hero-card" *ngFor="let hero of heroes; index as i">
+                    <a [routerLink]="['/hero/', hero.localized_name]" class="dota-hero-link">
+                        <img [src]="heroImages[i]" [alt]="hero.localized_name" class="dota-hero-image">
+                        <span class="dota-hero-name">@* {{ hero.localized_name }} *@</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+@* <button class="btn btn-primary" @onclick="IncrementCount">Click me</button> *@
+
+@code {
+    // private int currentCount = 0;
+
+    // private void IncrementCount()
+    // {
+    //     currentCount++;
+    // }
+}

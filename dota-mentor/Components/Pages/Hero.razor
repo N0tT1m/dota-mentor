@@ -1,0 +1,231 @@
+﻿@page "/Hero"
+<div class="container dota-page-container" *ngIf="!isLoading">
+    <div class="content-wrapper">
+        <div class="dota-hero-header">
+            <div class="dota-hero-gradient">
+                <div class="row dota-hero-content">
+                    <div class="dota-portrait">
+                        <img [src]="getHeroImageUrl(heroName!)" [alt]="heroStats?.localized_name" />
+                    </div>
+                    <div class="dota-hero-info">
+                        <h1>{{ heroStats?.localized_name || 'Hero Name' }}</h1>
+                        <p>{{ heroStats?.primary_attr || 'Primary Attribute' }} • {{ heroStats?.attack_type || 'Attack Type' }}</p>
+                        <div class="dota-roles">
+                            <span class="dota-role-tag" *ngFor="let role of heroStats?.roles">{{ role }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-wrapper">
+            <div class="stats-row primary">
+                <div class="dota-stats-panel">
+                    <h2>Performance by Rank</h2>
+                    <div class="dota-ranks-container">
+                        <div class="dota-rank-row header">
+                            <div class="rank-name">Rank</div>
+                            <div class="rank-stat">Pick Rate</div>
+                            <div class="rank-stat">Win Rate</div>
+                        </div>
+                        <ng-container *ngFor="let rank of RANK_ORDER">
+                            <div class="dota-rank-row">
+                                <div class="rank-name">{{ rank }}</div>
+                                <div class="rank-stat">
+                  <span class="value dota-value" [class]="getPickRateClass(getMetaStatsByRank(rank)!.pick_rate)">
+                    {{ getRankPickRate(rank) }}
+                  </span>
+                                </div>
+                                <div class="rank-stat">
+                  <span class="value dota-value" [class]="getWinRateClass(getMetaStatsByRank(rank)!.win_rate)">
+                    {{ getRankWinRate(rank) }}
+                  </span>
+                                </div>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-row secondary">
+                <div class="lane-stats-panel">
+                    <h2>Lane Performance</h2>
+                    <div class="lane-stats-container">
+                        <div class="lane-card" *ngFor="let lane of lanePresence">
+                            <div class="lane-header">
+                                <h3>{{ lane.lane }}</h3>
+                                <div class="presence">
+                                    <span class="label">Presence</span>
+                                    <span class="value">{{ lane.presence.toFixed(1) }}%</span>
+                                </div>
+                            </div>
+                            <div class="lane-stats-grid">
+                                <div class="stat-item">
+                                    <span class="label">Win Rate</span>
+                                    <span class="value" [class]="getLaneStatClass(lane.win_rate)">
+                    {{ lane.win_rate.toFixed(1) }}%
+                  </span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="label">KDA</span>
+                                    <span class="value">{{ lane.kda_ratio.toFixed(2) }}</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="label">GPM</span>
+                                    <span class="value">{{ lane.gpm }}</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="label">XPM</span>
+                                    <span class="value">{{ lane.xpm }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guides-section">
+                    <h2>Recent High MMR Matches</h2>
+                    <div class="guides-container">
+                        <div class="guides-scroll">
+                            <div class="guides-grid">
+                                <div class="guide-card" *ngFor="let guide of guides">
+                                    <div class="guide-header">
+                                        <div class="guide-info">
+                                            <div class="player-info">
+                                                <p class="name">{{ guide.player_name }}</p>
+                                                <p class="mmr">{{ guide.mmr }}</p>
+                                            </div>
+                                            <div class="match-info">
+                                                <span class="time">{{ guide.region }}</span>
+                                                <span class="lane">{{ guide.lane }}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="guide-stats">
+                                        <div class="farm-stats">
+                                            <div class="farm-stat">
+                                                <span class="label">GPM</span>
+                                                <span class="value">{{ guide.farm_stats.gpm }}</span>
+                                            </div>
+                                            <div class="farm-stat">
+                                                <span class="label">XPM</span>
+                                                <span class="value">{{ guide.farm_stats.xpm }}</span>
+                                            </div>
+                                            <div class="farm-stat">
+                                                <span class="label">LH at 30</span>
+                                                <span class="value">{{ guide.farm_stats.last_hits_30 }}</span>
+                                            </div>
+                                            <div class="farm-stat">
+                                                <span class="label">Efficiency</span>
+                                                <span class="value efficiency">{{ getFarmingEfficiency(guide.farm_stats) }}</span>
+                                            </div>
+                                        </div>
+                                        <div class="view-match">
+                                            <a [href]="'https://www.dotabuff.com' + guide.url" target="_blank">
+                                                View Match
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Best Matchups -->
+            <section class="versus-section" *ngIf="getBestVersus().length">
+                <h3>Best Matchups</h3>
+                <div class="versus-grid">
+                    <div class="versus-card" *ngFor="let hero of getBestVersus()">
+                        <img [src]="hero.hero_image" [alt]="hero.hero_name" class="hero-image">
+                        <p class="name">{{ hero.hero_name }}</p>
+                        <div class="versus-stats">
+                            <div class="stat">
+                                <span class="label">Advantage</span>
+                                <span class="value" [class]="getAdvantageClass(hero.advantage)">
+                  +{{hero.advantage | number:'1.1-1'}}%
+                </span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Win Rate</span>
+                                <span class="value" [class]="getWinRateClass(hero.win_rate)">
+                  {{hero.win_rate | number:'1.1-1'}}%
+                </span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Matches</span>
+                                <span class="value" [class]="getMatchesClassHeroes(hero.matches)">{{hero.matches}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Worst Matchups -->
+            <section class="versus-section" *ngIf="getWorstVersus().length">
+                <h3>Worst Matchups</h3>
+                <div class="versus-grid">
+                    <div class="versus-card" *ngFor="let hero of getWorstVersus()">
+                        <img [src]="hero.hero_image" [alt]="hero.hero_name" class="hero-image">
+                        <p class="name">{{ hero.hero_name }}</p>
+                        <div class="versus-stats">
+                            <div class="stat">
+                                <span class="label">Disadvantage</span>
+                                <span class="value" [class]="getAdvantageClass(hero.advantage)">
+                  {{hero.advantage | number:'1.1-1'}}%
+                </span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Win Rate</span>
+                                <span class="value" [class]="getWinRateClass(hero.win_rate)">
+                  {{hero.win_rate | number:'1.1-1'}}%
+                </span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Matches</span>
+                                <span class="value" [class]="getMatchesClassHeroes(hero.matches)">{{hero.matches}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Popular Items -->
+            <section class="items-section" *ngIf="getPopularItems().length">
+                <h3>Popular Items</h3>
+                <div class="items-grid">
+                    <div class="item-card" *ngFor="let item of getPopularItems()">
+                        <img [src]="item.item_image" [alt]="item.item_name" class="item-image">
+                        <p class="name">{{ item.item_name }}</p>
+                        <div class="item-stats">
+                            <div class="stat">
+                                <span class="label">Win Rate</span>
+                                <span class="value" [class]="getWinRateClass(item.win_rate)">
+                  {{item.win_rate | number:'1.1-1'}}%
+                </span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Matches</span>
+                                <span class="value" [class]="getMatchesClass(item.matches)">{{item.matches}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<div class="loading-state" *ngIf="isLoading">
+    Loading hero data...
+</div>
+
+<div class="error-state" *ngIf="error">
+    {{ error }}
+</div>
+
+
+@code {
+    
+}

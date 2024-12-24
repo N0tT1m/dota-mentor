@@ -1,0 +1,73 @@
+﻿@page "/RecentMatches"
+<main class="dota-main">
+    <section class="dota-section">
+        <header class="dota-header">Recent Matches</header>
+        <article class="dota-table-container">
+            <div class="dota-table-wrapper">
+                <table class="dota-table">
+                    <thead class="dota-thead">
+                    <tr>
+                        <th class="dota-th">Match ID</th>
+                        <th class="dota-th">Game Mode</th>
+                        <th class="dota-th">Result</th>
+                        <th class="dota-th dota-cell-large">Duration</th>
+                        <th class="dota-th dota-r-none-mobile dota-team dota-radiant">Radiant Team</th>
+                        <th class="dota-th dota-r-none-mobile dota-team dota-dire">Dire Team</th>
+                    </tr>
+                    </thead>
+                    <tbody class="dota-tbody">
+                    <tr class="dota-tr" *ngFor="let match of matches">
+                        <td class="dota-td">
+                            <a class="dota-match-link" href="https://dotabuff.com/matches/{{match.id}}">{{match.id}}</a>
+                        </td>
+                        <td class="dota-td">
+                            {{match.game_mode}}
+                        </td>
+                        <td class="dota-td">
+                            <a class="dota-result-link" [class]="getVictoryClass(match.result)"
+                               [routerLink]="['/matches', match.id]">
+                                {{match.result}}
+                            </a>
+                        </td>
+                        <td class="dota-td">
+                            {{match.duration}}
+                            <div class="dota-bar dota-bar-default">
+                                <div class="dota-segment dota-segment-duration"
+                                     [style.width]="getDurationWidth(match.duration)">
+                                </div>
+                            </div>
+                        </td>
+                        <td class="dota-td dota-r-none-mobile">
+                            <div class="dota-hero-list">
+                                <ng-container *ngFor="let hero of match.radiant_team.heroes">
+                                    <div class="dota-image-container">
+                                        <a class="dota-hero-link" [routerLink]="['/heroes', hero]">
+                                            <img class="dota-hero-image" [src]="getHeroImage(hero)" [alt]="'Hero ' + hero">
+                                        </a>
+                                    </div>
+                                </ng-container>
+                            </div>
+                        </td>
+                        <td class="dota-td dota-r-none-mobile">
+                            <div class="dota-hero-list">
+                                <ng-container *ngFor="let hero of match.dire_team.heroes">
+                                    <div class="dota-image-container">
+                                        <a class="dota-hero-link" [routerLink]="['/heroes', hero]">
+                                            <img class="dota-hero-image" [src]="getHeroImage(hero)" [alt]="'Hero ' + hero">
+                                        </a>
+                                    </div>
+                                </ng-container>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+    </section>
+</main>
+
+
+@code {
+    
+}

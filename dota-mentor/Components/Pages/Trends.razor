@@ -1,0 +1,112 @@
+﻿@page "/Trends"
+<div class="trends-container">
+    <!-- Search Section -->
+    <div class="search-container">
+        <input
+            type="text"
+            [(ngModel)]="searchQuery"
+            (input)="onSearch()"
+            placeholder="Search heroes..."
+            class="search-input"
+        >
+    </div>
+
+    <!-- Loading State -->
+    <div class="loading-state" *ngIf="isLoading">
+        Loading hero trends...
+    </div>
+
+    <!-- Error State -->
+    <div class="error-state" *ngIf="error">
+        @* <div>{{ error }}</div> *@
+        <button class="retry-button" (click)="retryLoad()">Retry</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="trends-grid" *ngIf="!isLoading && !error">
+        <div class="trend-card" *ngFor="let hero of paginatedTrends">
+            <div class="trend-header">
+                <div class="hero-portrait">
+                    <img [src]="getHeroImageUrl(hero.name)" [alt]="hero.name">
+                </div>
+                <div class="hero-info">
+                    <h2 class="hero-name">{{ hero.name }}</h2>
+                </div>
+            </div>
+
+            <div class="trend-stats">
+                <!-- Win Rate Section -->
+                <div class="stat-section">
+                    <div class="stat-title">Win Rate</div>
+                    <div class="stat-row">
+                        <div class="stat-group">
+                            <div class="stat-label">Start</div>
+                            <div class="stat-value"  [class]="getStatClass(hero.win_rate_start)">{{ formatValue(hero.win_rate_start) }}</div>
+                        </div>
+                        <div class="stat-group">
+                            <div class="stat-label">Current</div>
+                            <div class="stat-value" [class]="getStatClass(hero.win_rate_current)">
+                                {{ formatValue(hero.win_rate_current) }}
+                            </div>
+                        </div>
+                        <div class="stat-group">
+                            <div class="stat-label">Change</div>
+                            <div class="trend-change" [class]="getTrendClass(hero.win_rate_change)">
+                                {{ formatChange(hero.win_rate_change) }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pick Rate Section -->
+                <div class="stat-section">
+                    <div class="stat-title">Pick Rate</div>
+                    <div class="stat-row">
+                        <div class="stat-group">
+                            <div class="stat-label">Start</div>
+                            <div class="stat-value" [class]="getStatClass(hero.pick_rate_start)">{{ formatValue(hero.pick_rate_start) }}</div>
+                        </div>
+                        <div class="stat-group">
+                            <div class="stat-label">Current</div>
+                            <div class="stat-value" [class]="getStatClass(hero.pick_rate_current)">
+                                {{ formatValue(hero.pick_rate_current) }}
+                            </div>
+                        </div>
+                        <div class="stat-group">
+                            <div class="stat-label">Change</div>
+                            <div class="trend-change" [class]="getTrendClass(hero.pick_rate_change)">
+                                {{ formatChange(hero.pick_rate_change) }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination-controls" *ngIf="!isLoading && !error && filteredTrends.length > itemsPerPage">
+        <button
+            class="page-button"
+            (click)="previousPage()"
+            [disabled]="currentPage === 1"
+        >
+            Previous
+        </button>
+        <span class="page-info">
+      Page {{ currentPage }} of {{ totalPages }}
+    </span>
+        <button
+            class="page-button"
+            (click)="nextPage()"
+            [disabled]="currentPage === totalPages"
+        >
+            Next
+        </button>
+    </div>
+</div>
+
+
+@code {
+    
+}

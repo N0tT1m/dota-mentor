@@ -1,0 +1,103 @@
+﻿@page "/LiveMatches"
+<div class="dota-container">
+    <main class="dota-main">
+        <section class="dota-live-matches">
+            <header class="dota-header">
+                <h2 class="dota-title">Live DotaBuff Matches</h2>
+                <div class="dota-controls">
+                    <label class="dota-label" for="limitSelect">Show:</label>
+                    <select
+                        id="limitSelect"
+                        [(ngModel)]="selectedLimit"
+                        (change)="onLimitChange()"
+                        class="dota-limit-select">
+                        <option *ngFor="let limit of availableLimits" [value]="limit">
+                            {{limit}} matches
+                        </option>
+                    </select>
+                </div>
+            </header>
+
+            <div class="dota-error" *ngIf="error">
+                {{error}}
+                <button class="dota-retry-btn" (click)="loadMatches()">Retry</button>
+            </div>
+
+            <div class="dota-loading" *ngIf="loading">
+                Loading...
+            </div>
+
+            <div class="dota-matches-container" *ngIf="!loading && !error">
+                <div class="dota-match-card" *ngFor="let match of liveMatches">
+                    <div class="dota-match-header">
+                        <div class="dota-league-info">
+                            <img [src]="match.team_radiant.logo_url" alt="League Logo" class="dota-league-logo">
+                            <span class="dota-league-name">{{match.league_name}}</span>
+                        </div>
+                        <div class="dota-match-meta">
+                            <span class="dota-series-type">BO{{match.series_type}}</span>
+                            <span class="dota-region">{{match.region}}</span>
+                            <span [class]="'dota-status ' + getMatchStatusClass(match.status)">
+                {{match.status}}
+              </span>
+                        </div>
+                    </div>
+
+                    <div class="dota-teams-container">
+                        <!-- Radiant Team -->
+                        <div class="dota-team dota-radiant">
+                            <img [src]="match.team_radiant.logo_url" [alt]="match.team_radiant.name" class="dota-team-logo">
+                            <div class="dota-team-info">
+                                <span class="dota-team-name">{{match.team_radiant.name}}</span>
+                                <span class="dota-team-tag">{{match.team_radiant.tag}}</span>
+                            </div>
+                            <div class="dota-series-score">{{match.team_radiant.series_wins}}</div>
+                        </div>
+
+                        <div class="dota-versus">VS</div>
+
+                        <!-- Dire Team -->
+                        <div class="dota-team dota-dire">
+                            <img [src]="match.team_dire.logo_url" [alt]="match.team_dire.name" class="dota-team-logo">
+                            <div class="dota-team-info">
+                                <span class="dota-team-name">{{match.team_dire.name}}</span>
+                                <span class="dota-team-tag">{{match.team_dire.tag}}</span>
+                            </div>
+                            <div class="dota-series-score">{{match.team_dire.series_wins}}</div>
+                        </div>
+                    </div>
+
+                    <div class="dota-games-container">
+                        <ng-container *ngIf="match.games && match.games.length > 0">
+                            <a *ngFor="let game of match.games"
+                               [href]="game.url"
+                               target="_blank"
+                               [class]="'dota-game ' + getGameStatusClass(game.status)">
+                                Game {{game.game_number}}
+                            </a>
+                        </ng-container>
+                    </div>
+
+                    <div class="dota-match-footer">
+                        <a [href]="match.series_url" target="_blank" class="dota-series-link">
+                            View Series Details
+                        </a>
+                        <div class="dota-match-stats" *ngIf="match.spectators || match.game_time">
+              <span class="dota-stat" *ngIf="match.spectators">
+                {{match.spectators}} viewers
+              </span>
+                            <span class="dota-stat" *ngIf="match.game_time">
+                Game time: {{match.game_time}}
+              </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+
+@code {
+    
+}

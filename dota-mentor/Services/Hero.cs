@@ -1,6 +1,6 @@
 ﻿namespace dota_mentor.Services;
 
-public class Heroes
+public class Hero
 {
     
 }

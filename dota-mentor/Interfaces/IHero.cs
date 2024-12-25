@@ -41,3 +41,9 @@ public interface IHero
     double ProWins { get; set; }
     double ProPick { get; set; }
 }
+
+public interface ILane
+{
+    string Lane { get; set; }
+}
+

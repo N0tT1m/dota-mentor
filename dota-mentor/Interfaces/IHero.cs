@@ -42,8 +42,5 @@ public interface IHero
     double ProPick { get; set; }
 }
 
-public interface ILane
-{
-    string Lane { get; set; }
-}
+
 

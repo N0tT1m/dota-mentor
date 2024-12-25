@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dota-mentor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae5a450857f0978f6bdacc713b3bd8c2e7913e56")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddd4605e831d393278775367607014513b96dcbf")]
 [assembly: System.Reflection.AssemblyProductAttribute("dota-mentor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dota-mentor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

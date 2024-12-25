@@ -1,0 +1,749 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/obj/Debug/net9.0/scopedcss/projectbundle/dota-mentor.bundle.scp.css",
+      "PackagePath": "staticwebassets/dota-mentor.708xkumj4x.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/abaddon.png",
+      "PackagePath": "staticwebassets/heroes/abaddon.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/abaddon.webp",
+      "PackagePath": "staticwebassets/heroes/abaddon.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/alchemist.png",
+      "PackagePath": "staticwebassets/heroes/alchemist.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/alchemist.webp",
+      "PackagePath": "staticwebassets/heroes/alchemist.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/ancient_apparition.jpg",
+      "PackagePath": "staticwebassets/heroes/ancient_apparition.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/ancient_apparition.png",
+      "PackagePath": "staticwebassets/heroes/ancient_apparition.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/ancient_apparition_1.jpg",
+      "PackagePath": "staticwebassets/heroes/ancient_apparition_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/anti_mage.jpg",
+      "PackagePath": "staticwebassets/heroes/anti_mage.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/anti_mage_1.jpg",
+      "PackagePath": "staticwebassets/heroes/anti_mage_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/antimage.png",
+      "PackagePath": "staticwebassets/heroes/antimage.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/arc_warden.jpg",
+      "PackagePath": "staticwebassets/heroes/arc_warden.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/arc_warden.png",
+      "PackagePath": "staticwebassets/heroes/arc_warden.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/arc_warden.webp",
+      "PackagePath": "staticwebassets/heroes/arc_warden.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/axe.jpg",
+      "PackagePath": "staticwebassets/heroes/axe.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/axe.png",
+      "PackagePath": "staticwebassets/heroes/axe.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/axe_1.jpg",
+      "PackagePath": "staticwebassets/heroes/axe_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/bane.jpg",
+      "PackagePath": "staticwebassets/heroes/bane.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/bane.png",
+      "PackagePath": "staticwebassets/heroes/bane.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/bane_1.jpg",
+      "PackagePath": "staticwebassets/heroes/bane_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/batrider.jpg",
+      "PackagePath": "staticwebassets/heroes/batrider.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/batrider.png",
+      "PackagePath": "staticwebassets/heroes/batrider.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/batrider_1.png",
+      "PackagePath": "staticwebassets/heroes/batrider_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/beastmaster.jpg",
+      "PackagePath": "staticwebassets/heroes/beastmaster.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/beastmaster.png",
+      "PackagePath": "staticwebassets/heroes/beastmaster.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/beastmaster.webp",
+      "PackagePath": "staticwebassets/heroes/beastmaster.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/bloodseeker.jpg",
+      "PackagePath": "staticwebassets/heroes/bloodseeker.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/bloodseeker.png",
+      "PackagePath": "staticwebassets/heroes/bloodseeker.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/bounty_hunter.jpg",
+      "PackagePath": "staticwebassets/heroes/bounty_hunter.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/bounty_hunter.png",
+      "PackagePath": "staticwebassets/heroes/bounty_hunter.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/bounty_hunter.webp",
+      "PackagePath": "staticwebassets/heroes/bounty_hunter.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/brewmaster.jpg",
+      "PackagePath": "staticwebassets/heroes/brewmaster.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/brewmaster.png",
+      "PackagePath": "staticwebassets/heroes/brewmaster.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/brewmaster_1.png",
+      "PackagePath": "staticwebassets/heroes/brewmaster_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/bristleback.png",
+      "PackagePath": "staticwebassets/heroes/bristleback.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/bristleback.webp",
+      "PackagePath": "staticwebassets/heroes/bristleback.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/bristleback_1.png",
+      "PackagePath": "staticwebassets/heroes/bristleback_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/broodmother.jpg",
+      "PackagePath": "staticwebassets/heroes/broodmother.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/broodmother.png",
+      "PackagePath": "staticwebassets/heroes/broodmother.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/broodmother_1.jpg",
+      "PackagePath": "staticwebassets/heroes/broodmother_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/centaur.png",
+      "PackagePath": "staticwebassets/heroes/centaur.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/centaur_1.jpg",
+      "PackagePath": "staticwebassets/heroes/centaur_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/centaur_2.jpg",
+      "PackagePath": "staticwebassets/heroes/centaur_2.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/chaos_knight.jpg",
+      "PackagePath": "staticwebassets/heroes/chaos_knight.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/chaos_knight.png",
+      "PackagePath": "staticwebassets/heroes/chaos_knight.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/chaos_knight_1.png",
+      "PackagePath": "staticwebassets/heroes/chaos_knight_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/chen.jpg",
+      "PackagePath": "staticwebassets/heroes/chen.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/chen.png",
+      "PackagePath": "staticwebassets/heroes/chen.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/clinkz.jpg",
+      "PackagePath": "staticwebassets/heroes/clinkz.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/clinkz.png",
+      "PackagePath": "staticwebassets/heroes/clinkz.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/clinkz.webp",
+      "PackagePath": "staticwebassets/heroes/clinkz.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/clockwerk.jpg",
+      "PackagePath": "staticwebassets/heroes/clockwerk.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/clockwerk.png",
+      "PackagePath": "staticwebassets/heroes/clockwerk.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/clockwerk.webp",
+      "PackagePath": "staticwebassets/heroes/clockwerk.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/crystal_maiden.jpg",
+      "PackagePath": "staticwebassets/heroes/crystal_maiden.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/crystal_maiden.png",
+      "PackagePath": "staticwebassets/heroes/crystal_maiden.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/crystal_maiden.webp",
+      "PackagePath": "staticwebassets/heroes/crystal_maiden.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dark_seer.jpg",
+      "PackagePath": "staticwebassets/heroes/dark_seer.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dark_seer.png",
+      "PackagePath": "staticwebassets/heroes/dark_seer.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dark_seer_1.jpg",
+      "PackagePath": "staticwebassets/heroes/dark_seer_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dark_seer_2.jpg",
+      "PackagePath": "staticwebassets/heroes/dark_seer_2.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dark_seer_3.jpg",
+      "PackagePath": "staticwebassets/heroes/dark_seer_3.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dark_willow.jpg",
+      "PackagePath": "staticwebassets/heroes/dark_willow.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dark_willow.png",
+      "PackagePath": "staticwebassets/heroes/dark_willow.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dark_willow.webp",
+      "PackagePath": "staticwebassets/heroes/dark_willow.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dark_willow_1.png",
+      "PackagePath": "staticwebassets/heroes/dark_willow_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dark_willow_1.webp",
+      "PackagePath": "staticwebassets/heroes/dark_willow_1.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dawnbreaker.avif",
+      "PackagePath": "staticwebassets/heroes/dawnbreaker.avif"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dawnbreaker.png",
+      "PackagePath": "staticwebassets/heroes/dawnbreaker.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dawnbreaker_1.png",
+      "PackagePath": "staticwebassets/heroes/dawnbreaker_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dazzle.jpg",
+      "PackagePath": "staticwebassets/heroes/dazzle.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dazzle.png",
+      "PackagePath": "staticwebassets/heroes/dazzle.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dazzle.webp",
+      "PackagePath": "staticwebassets/heroes/dazzle.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dazzle_1.jpg",
+      "PackagePath": "staticwebassets/heroes/dazzle_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/death_prophet.jpg",
+      "PackagePath": "staticwebassets/heroes/death_prophet.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/death_prophet.png",
+      "PackagePath": "staticwebassets/heroes/death_prophet.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/death_prophet.webp",
+      "PackagePath": "staticwebassets/heroes/death_prophet.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/disruptor.png",
+      "PackagePath": "staticwebassets/heroes/disruptor.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/disruptor.webp",
+      "PackagePath": "staticwebassets/heroes/disruptor.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/disruptor_1.webp",
+      "PackagePath": "staticwebassets/heroes/disruptor_1.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/doom.jpg",
+      "PackagePath": "staticwebassets/heroes/doom.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/doom_1.jpg",
+      "PackagePath": "staticwebassets/heroes/doom_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/doom_bringer.png",
+      "PackagePath": "staticwebassets/heroes/doom_bringer.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dragon_knight.avif",
+      "PackagePath": "staticwebassets/heroes/dragon_knight.avif"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dragon_knight.jpg",
+      "PackagePath": "staticwebassets/heroes/dragon_knight.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dragon_knight.png",
+      "PackagePath": "staticwebassets/heroes/dragon_knight.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dragon_knight.webp",
+      "PackagePath": "staticwebassets/heroes/dragon_knight.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dragon_knight_1.png",
+      "PackagePath": "staticwebassets/heroes/dragon_knight_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/dragon_knight_1.webp",
+      "PackagePath": "staticwebassets/heroes/dragon_knight_1.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/drow_ranger.jpg",
+      "PackagePath": "staticwebassets/heroes/drow_ranger.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/drow_ranger.png",
+      "PackagePath": "staticwebassets/heroes/drow_ranger.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/drow_ranger.webp",
+      "PackagePath": "staticwebassets/heroes/drow_ranger.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/drow_ranger_1.jpg",
+      "PackagePath": "staticwebassets/heroes/drow_ranger_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/drow_ranger_1.png",
+      "PackagePath": "staticwebassets/heroes/drow_ranger_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/drow_ranger_1.webp",
+      "PackagePath": "staticwebassets/heroes/drow_ranger_1.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earth_spirit.jpg",
+      "PackagePath": "staticwebassets/heroes/earth_spirit.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earth_spirit.png",
+      "PackagePath": "staticwebassets/heroes/earth_spirit.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earth_spirit.webp",
+      "PackagePath": "staticwebassets/heroes/earth_spirit.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earth_spirit_1.jpg",
+      "PackagePath": "staticwebassets/heroes/earth_spirit_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earth_spirit_1.png",
+      "PackagePath": "staticwebassets/heroes/earth_spirit_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earth_spirit_2.jpg",
+      "PackagePath": "staticwebassets/heroes/earth_spirit_2.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earth_spirit_3.jpg",
+      "PackagePath": "staticwebassets/heroes/earth_spirit_3.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earthshaker.jpg",
+      "PackagePath": "staticwebassets/heroes/earthshaker.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earthshaker.png",
+      "PackagePath": "staticwebassets/heroes/earthshaker.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earthshaker.webp",
+      "PackagePath": "staticwebassets/heroes/earthshaker.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earthshaker_1.png",
+      "PackagePath": "staticwebassets/heroes/earthshaker_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earthshaker_1.webp",
+      "PackagePath": "staticwebassets/heroes/earthshaker_1.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earthshaker_2.png",
+      "PackagePath": "staticwebassets/heroes/earthshaker_2.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/earthshaker_2.webp",
+      "PackagePath": "staticwebassets/heroes/earthshaker_2.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/elder_titan.jpg",
+      "PackagePath": "staticwebassets/heroes/elder_titan.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/elder_titan.png",
+      "PackagePath": "staticwebassets/heroes/elder_titan.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/elder_titan.webp",
+      "PackagePath": "staticwebassets/heroes/elder_titan.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/elder_titan_1.jpg",
+      "PackagePath": "staticwebassets/heroes/elder_titan_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/elder_titan_1.webp",
+      "PackagePath": "staticwebassets/heroes/elder_titan_1.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/ember_spirit.jpg",
+      "PackagePath": "staticwebassets/heroes/ember_spirit.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/ember_spirit.png",
+      "PackagePath": "staticwebassets/heroes/ember_spirit.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/ember_spirit.webp",
+      "PackagePath": "staticwebassets/heroes/ember_spirit.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/enchantress.jpg",
+      "PackagePath": "staticwebassets/heroes/enchantress.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/enchantress.png",
+      "PackagePath": "staticwebassets/heroes/enchantress.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/enchantress_1.jpg",
+      "PackagePath": "staticwebassets/heroes/enchantress_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/enigma.jpg",
+      "PackagePath": "staticwebassets/heroes/enigma.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/enigma.png",
+      "PackagePath": "staticwebassets/heroes/enigma.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/enigma.webp",
+      "PackagePath": "staticwebassets/heroes/enigma.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/enigma_1.jpg",
+      "PackagePath": "staticwebassets/heroes/enigma_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/enigma_1.png",
+      "PackagePath": "staticwebassets/heroes/enigma_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/enigma_2.jpg",
+      "PackagePath": "staticwebassets/heroes/enigma_2.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/enigma_eidolon.webp",
+      "PackagePath": "staticwebassets/heroes/enigma_eidolon.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/faceless_void.png",
+      "PackagePath": "staticwebassets/heroes/faceless_void.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/faceless_void.webp",
+      "PackagePath": "staticwebassets/heroes/faceless_void.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/faceless_void_1.png",
+      "PackagePath": "staticwebassets/heroes/faceless_void_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/faceless_void_1.webp",
+      "PackagePath": "staticwebassets/heroes/faceless_void_1.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/grimstroke.avif",
+      "PackagePath": "staticwebassets/heroes/grimstroke.avif"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/grimstroke.jpg",
+      "PackagePath": "staticwebassets/heroes/grimstroke.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/grimstroke.png",
+      "PackagePath": "staticwebassets/heroes/grimstroke.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/grimstroke.webp",
+      "PackagePath": "staticwebassets/heroes/grimstroke.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/grimstroke_1.png",
+      "PackagePath": "staticwebassets/heroes/grimstroke_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/gyrocopter.jpg",
+      "PackagePath": "staticwebassets/heroes/gyrocopter.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/gyrocopter.png",
+      "PackagePath": "staticwebassets/heroes/gyrocopter.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/gyrocopter.webp",
+      "PackagePath": "staticwebassets/heroes/gyrocopter.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/gyrocopter_1.png",
+      "PackagePath": "staticwebassets/heroes/gyrocopter_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/hoodwink.jpg",
+      "PackagePath": "staticwebassets/heroes/hoodwink.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/hoodwink.png",
+      "PackagePath": "staticwebassets/heroes/hoodwink.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/hoodwink.webp",
+      "PackagePath": "staticwebassets/heroes/hoodwink.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/hoodwink_1.webp",
+      "PackagePath": "staticwebassets/heroes/hoodwink_1.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/huskar.jpg",
+      "PackagePath": "staticwebassets/heroes/huskar.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/huskar.png",
+      "PackagePath": "staticwebassets/heroes/huskar.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/huskar.webp",
+      "PackagePath": "staticwebassets/heroes/huskar.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/invoker.jpg",
+      "PackagePath": "staticwebassets/heroes/invoker.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/invoker.png",
+      "PackagePath": "staticwebassets/heroes/invoker.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/invoker.webp",
+      "PackagePath": "staticwebassets/heroes/invoker.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/invoker_1.jpg",
+      "PackagePath": "staticwebassets/heroes/invoker_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/invoker_1.png",
+      "PackagePath": "staticwebassets/heroes/invoker_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/invoker_2.jpg",
+      "PackagePath": "staticwebassets/heroes/invoker_2.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/io.jpg",
+      "PackagePath": "staticwebassets/heroes/io.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/io.png",
+      "PackagePath": "staticwebassets/heroes/io.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/io.webp",
+      "PackagePath": "staticwebassets/heroes/io.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/jakiro.jpg",
+      "PackagePath": "staticwebassets/heroes/jakiro.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/jakiro.png",
+      "PackagePath": "staticwebassets/heroes/jakiro.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/jakiro.webp",
+      "PackagePath": "staticwebassets/heroes/jakiro.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/jakiro_1.jpg",
+      "PackagePath": "staticwebassets/heroes/jakiro_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/juggernaut.jpg",
+      "PackagePath": "staticwebassets/heroes/juggernaut.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/juggernaut.png",
+      "PackagePath": "staticwebassets/heroes/juggernaut.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/juggernaut.webp",
+      "PackagePath": "staticwebassets/heroes/juggernaut.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/keeper_of_the_light.jpg",
+      "PackagePath": "staticwebassets/heroes/keeper_of_the_light.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/keeper_of_the_light.png",
+      "PackagePath": "staticwebassets/heroes/keeper_of_the_light.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/keeper_of_the_light.webp",
+      "PackagePath": "staticwebassets/heroes/keeper_of_the_light.webp"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/keeper_of_the_light_1.jpg",
+      "PackagePath": "staticwebassets/heroes/keeper_of_the_light_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/keeper_of_the_light_1.png",
+      "PackagePath": "staticwebassets/heroes/keeper_of_the_light_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/kez.jpg",
+      "PackagePath": "staticwebassets/heroes/kez.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/kez.png",
+      "PackagePath": "staticwebassets/heroes/kez.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/kez_1.jpg",
+      "PackagePath": "staticwebassets/heroes/kez_1.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/kez_1.png",
+      "PackagePath": "staticwebassets/heroes/kez_1.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/kez_2.png",
+      "PackagePath": "staticwebassets/heroes/kez_2.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/kez_3.png",
+      "PackagePath": "staticwebassets/heroes/kez_3.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/kunkka.jpg",
+      "PackagePath": "staticwebassets/heroes/kunkka.jpg"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/kunkka.png",
+      "PackagePath": "staticwebassets/heroes/kunkka.png"
+    },
+    {
+      "Id": "/Users/timmy/workspace/public-projects/dota-mentor/dota-mentor/wwwroot/heroes/spirits.jpg",
+      "PackagePath": "staticwebassets/heroes/spirits.jpg"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.dota-mentor.props",
+      "PackagePath": "build\\dota-mentor.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.dota-mentor.props",
+      "PackagePath": "buildMultiTargeting\\dota-mentor.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.dota-mentor.props",
+      "PackagePath": "buildTransitive\\dota-mentor.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.dota-mentor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.dota-mentor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

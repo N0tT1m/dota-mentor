@@ -1,6 +1,9 @@
 ﻿@page "/heroes"
 @rendermode InteractiveServer
 
+@using MongoDB.Bson;
+@using MongoDB.Driver;
+
 <PageTitle>Heroes</PageTitle>
 
 <h1>Heroes</h1>
@@ -104,10 +107,5 @@
 @* <button class="btn btn-primary" @onclick="IncrementCount">Click me</button> *@
 
 @code {
-    // private int currentCount = 0;
-
-    // private void IncrementCount()
-    // {
-    //     currentCount++;
-    // }
+    
 }

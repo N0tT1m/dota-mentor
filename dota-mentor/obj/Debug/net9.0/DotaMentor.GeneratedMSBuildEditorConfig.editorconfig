@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dota-mentor
 build_property.RootNamespace = dota-mentor
-build_property.ProjectDir = E:\workspace\public-projects\dota-mentor\dota-mentor\
+build_property.ProjectDir = E:\workspace\public-projects\dota-mentor\DotaMentor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\workspace\public-projects\dota-mentor\dota-mentor
+build_property.MSBuildProjectDirectory = E:\workspace\public-projects\dota-mentor\DotaMentor
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/App.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/Pages/Error.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/Pages/Hero.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/Pages/Hero.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIZXJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/Pages/Heroes.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/Pages/Heroes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIZXJvZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/Pages/Home.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/Pages/LiveMatches.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/Pages/LiveMatches.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXZlTWF0Y2hlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/Pages/Meta.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/Pages/Meta.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNZXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/Pages/RecentMatches.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/Pages/RecentMatches.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWNlbnRNYXRjaGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/Pages/Trends.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/Pages/Trends.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUcmVuZHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/Routes.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/_Imports.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/Layout/MainLayout.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-v0rjhnbngg
+build_metadata.AdditionalFiles.CssScope = b-sj9q7tt9rm
 
-[E:/workspace/public-projects/dota-mentor/dota-mentor/Components/Layout/NavMenu.razor]
+[E:/workspace/public-projects/dota-mentor/DotaMentor/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-kiwoov3mqi
+build_metadata.AdditionalFiles.CssScope = b-jvo92lkgx8

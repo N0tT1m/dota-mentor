@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\workspace\\public-projects\\dota-mentor\\dota-mentor\\dota-mentor.csproj": {}
+    "E:\\workspace\\public-projects\\dota-mentor\\DotaMentor\\DotaMentor.csproj": {}
   },
   "projects": {
-    "E:\\workspace\\public-projects\\dota-mentor\\dota-mentor\\dota-mentor.csproj": {
+    "E:\\workspace\\public-projects\\dota-mentor\\DotaMentor\\DotaMentor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\workspace\\public-projects\\dota-mentor\\dota-mentor\\dota-mentor.csproj",
-        "projectName": "dota-mentor",
-        "projectPath": "E:\\workspace\\public-projects\\dota-mentor\\dota-mentor\\dota-mentor.csproj",
+        "projectUniqueName": "E:\\workspace\\public-projects\\dota-mentor\\DotaMentor\\DotaMentor.csproj",
+        "projectName": "DotaMentor",
+        "projectPath": "E:\\workspace\\public-projects\\dota-mentor\\DotaMentor\\DotaMentor.csproj",
         "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
-        "outputPath": "E:\\workspace\\public-projects\\dota-mentor\\dota-mentor\\obj\\",
+        "outputPath": "E:\\workspace\\public-projects\\dota-mentor\\DotaMentor\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "UsingMicrosoftNETSdk": false,

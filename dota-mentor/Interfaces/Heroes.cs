@@ -24,5 +24,20 @@ public interface IHero
     double StrGain { get; set; }
     double AgiGain { get; set; }
     double IntGain { get; set; }
-    
+    double AttachRange { get; set; }
+    double ProjectileSpeed { get; set; }
+    double AttackRate { get; set; }
+    double BaseAttackTime { get; set; }
+    double AttackPoint { get; set; }
+    double MoveSpeed { get; set; }
+    double TurnRate { get; set; }
+    bool CmEnabled { get; set; }
+    double Legs { get; set; }
+    double DayVision { get; set; }
+    double NightVision { get; set; }
+    double TurboPicks { get; set; }
+    double TurboWins { get; set; }
+    double ProBan { get; set; }
+    double ProWins { get; set; }
+    double ProPick { get; set; }
 }
